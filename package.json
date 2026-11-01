@@ -1,0 +1,36 @@
+{
+  "name": "crowpi-pid-telecom",
+  "version": "1.0.0",
+  "description": "Sistema de Control PID para Telecomunicaciones en CrowPi",
+  "main": "telecom-pid-controller.js",
+  "scripts": {
+    "start": "node telecom-pid-controller.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "pid-control",
+    "crowpi",
+    "raspberrypi",
+    "telecommunications",
+    "control-systems",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Jose David Lopez Avila - C.I: 30.901.291 - Ingeniero en Telecomunicaciones",
+  "license": "MIT",
+  "dependencies": {
+    "pigpio": "^3.3.1",
+    "mcp-spi-adc": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/crowpi-pid-telecom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/crowpi-pid-telecom/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/crowpi-pid-telecom#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
